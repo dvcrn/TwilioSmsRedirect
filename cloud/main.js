@@ -11,9 +11,7 @@ var app = express();
 app.use(express.json());
 app.use(express.bodyParser());
 
-// Create a route that will respond to am HTTP GET request with some
-// simple TwiML instructions
-app.post('/hello', function (request, response) {
+app.post('/endpoint', function (request, response) {
     "use strict";
     var twiml, smsBody, smsTo, smsFrom;
 
