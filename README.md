@@ -6,4 +6,4 @@ This is a very simple app for redirecting SMS from twilio to a specified number.
 * Edit `phoneNumber` inside `main.js` with the phone number you want SMS to be redirected to
 * Edit `config/global.json` with your parse app details.
 * `parse deploy` the puppy
-* Go to twilio -> numbers and set your parse endpoint as request URL
+* Go to twilio -> numbers and set your parse endpoint as request URL (yourdomain.parseapp.com/endpoint)
