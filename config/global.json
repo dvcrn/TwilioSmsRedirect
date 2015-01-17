@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Twilioredirect": {
+            "applicationId": "xxxx",
+            "masterKey": "xxxx"
+        },
+        "_default": {
+            "link": "Twilioredirect"
+        }
+    },
+    "global": {
+        "parseVersion": "1.3.3"
+    }
+}
